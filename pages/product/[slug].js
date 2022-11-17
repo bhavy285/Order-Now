@@ -95,12 +95,6 @@ const ProductDetails = ({ product, products }) => {
             {products.map((item) => (
               <Product key={item._id} product={item} />
             ))}
-
-            {/* {products.map((item) => (
-              <Link href={`/${product.name}`} key={item._id}>
-                  <Product key={item._id} product={item} />
-              </Link>
-            ))} */}
           </div>
         </div>
       </div>

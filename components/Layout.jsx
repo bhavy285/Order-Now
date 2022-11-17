@@ -3,20 +3,20 @@ import Link from "next/link";
 import Head from "next/head";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
-const Layout = ({children}) => {
+const Layout = ({ children }) => {
   return (
     <div className="layout">
       <Head>
-        <title>Buy Go</title>
+        <title>Shop Go</title>
       </Head>
       <header>
-        <Navbar/>
+        <Navbar />
       </header>
-      <main className="main-container" id="main_id" >
-       {children}
+      <main className="main-container" id="main_id">
+        {children}
       </main>
       <footer>
-        <Footer/>
+        <Footer />
       </footer>
     </div>
   );
